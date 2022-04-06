@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.favoritecart.FavoriteCartFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|top"
+        android:layout_margin="10dp"
+        android:background="?android:attr/actionModeSplitBackground"
+        android:orientation="vertical"
+        android:id="@+id/novo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:paddingBottom="10dp"
+            android:background="@color/green"
+            android:orientation="vertical"
+            android:id="@+id/linear">
+
+            <TextView
+                android:id="@+id/txtNewFavoriteCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/ttx_favorite"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtStep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/txt_step"
+            android:textSize="13dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/lstTitle">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:src="@drawable/logo"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/favorite_carts"
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </LinearLayout>
+        <ListView
+            android:id="@+id/favoriteCartListView"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center"
+            app:layout_constraintTop_toBottomOf="@id/textView"
+            app:layout_constraintBottom_toTopOf="@id/mobile_navigation"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvListaVazia"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Ainda não possui carrinhos cadastrados!"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+    <ProgressBar
+        android:id="@+id/favoriteCartProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="102dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp" />
+
+</FrameLayout>

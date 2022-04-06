@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">EightShop</string>
+    <!-- Strings related to login -->
+    <string name="prompt_user">Nome</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="signup_failed">"SignUp failed"</string>
+    <string name="title_activity_list_merchant">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_user">Usuário</string>
+    <string name="title_shopping_cart">Favoritos</string>
+    <string name="title_search">Compras</string>
+    <string name="title_ticket">Pedidos</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="signup_subtitle">Cadastro</string>
+    <string name="button_create_account">Cadastrar</string>
+    <string name="company_id">companyId</string>
+    <string name="title_signup">Cadastre-se!</string>
+    <string name="company_name">companyName</string>
+    <string name="title_activity_login_nova">LoginNova</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tv_selecione_estabelecimento">Olá, selecione um estabelecimento</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favorite_carts">Lista de Carrinhos Favoritos</string>
+    <string name="txt_step">É uma lista de produtos que compra frequentemente, e para facilitar o dia--dia, pode deixar cadastrado! </string>
+    <string name="ttx_favorite">O que são carrinhos favoritos?</string>
+</resources>
